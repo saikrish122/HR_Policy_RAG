@@ -18,6 +18,8 @@ The notebook uses the OpenAI Python SDK with Groq's OpenAI-compatible API endpoi
 ```text
 project-folder/
 ├── app.ipynb
+|___ README.md
+|___.gitignore
 ├── .env                 # Create this yourself; do not commit it
 └── data/
     └── Sample_HR_policy_Document.txt
