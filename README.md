@@ -66,7 +66,7 @@ python -m pip install jupyter python-dotenv chromadb pandas openai
    Although the variable is named `OPENAI_API_KEY`, the notebook sends requests to Groq. Keep `.env` private and never upload your real key to GitHub.
 
 5. Put the policy text file at `data/Sample_HR_policy_Document.txt`. Keep the same filename or update `TXT_PATH` in the notebook.
-6. Open `app(3).ipynb` in Jupyter or VS Code, select the virtual environment's Python kernel, and run the cells from top to bottom. Make sure the notebook's current working directory is the project folder so it can find `.env` and `data/`.
+6. Open `app.ipynb` in Jupyter or VS Code, select the virtual environment's Python kernel, and run the cells from top to bottom. Make sure the notebook's current working directory is the project folder so it can find `.env` and `data/`.
 
 ## Ask a question
 
